@@ -639,7 +639,8 @@ Here are steps that help you upgrade the Oracle connector:
         | alternateservers | DESCRIPTION_LIST  (parameter in `server`) | 
         | arraysize | fetchSize  | 
         | cachedcursorlimit | statementCacheSize | 
-        | connectionretrycount | RETRY_COUNT (parameter in `server`) | 
+        | connectionretrycount | RETRY_COUNT (parameter in `server`) |
+        | connectionretrydelay | RETRY_DELAY (parameter in `server`) | 
         | initializationstring | initializationString  | 
         | logintimeout | CONNECT_TIMEOUT (parameter in `server`) | 
         | cryptoprotocolversion | SSL_VERSION (parameter in `server`) | 
